@@ -56,19 +56,29 @@ DESCRIPTION
 
 # awk
 awk '{print $0}' gtst.txt
+
 awk '{print NR,$0}' gtst.txt
+
 awk '/something/ {print}' gtst.txt
+
 NR(Number Record)
+
 *For Example.
+
 1 microsoft saler account 100,000,000
+
 2 linux buyer account 200,000,000
+
 3 apple marketer 300,000,000
+
 **awk 'NR==3 {print NR,$0} ' gtst.txt
 
 **output =**
 2 linux buyer account 200.000.000
-**OR** 
+
+**OR**
 awk 'NR= =3(-end of the line) {print NR,$0}'
+
 **output =**
 2 linux buyer account 200,000,000
 3 apple marketer 300,000,000
