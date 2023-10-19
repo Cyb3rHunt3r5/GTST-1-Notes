@@ -54,6 +54,38 @@ SYNOPSIS
 DESCRIPTION
        Copy/move  ﬁles & folders.
 
+# awk
+awk '{print $0}' gtst.txt
+awk '{print NR,$0}' gtst.txt
+awk '/something/ {print}' gtst.txt
+NR(Number Record)
+*For Example.
+1 microsoft saler account 100,000,000
+2 linux buyer account 200,000,000
+3 apple marketer 300,000,000
+**awk 'NR==3 {print NR,$0} ' gtst.txt
+
+**output =**
+3 linux buyer account 200.000.000
+**OR** 
+awk 'NR= =3(-end of the line) {print NR,$0}'
+**output =**
+2 linux buyer account 200,000,000
+3 apple marketer 300,000,000
+
+
+# sed
+*sed 's/FIND/REPLACE/' gtst.txt
+**for all replacing type "g"**
+sed 's/FIND/REPLACE/g' gtst.txt
+**deleting type "d"**
+sed '/apple/d' gtst.txt
+**sed G gtst.txt**
+adding space type "G"
+**deleting new lines**
+sed '/^$/d' gtst.txt
+       
+
 
 # grep - global search for regular expression
 ● grep -i “search” ﬁle     
