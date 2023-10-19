@@ -63,7 +63,7 @@ awk '/something/ {print}' gtst.txt
 
 NR(Number Record)
 
-*For Example.
+**For Example.**
 
 1 microsoft saler account 100,000,000
 
@@ -71,7 +71,7 @@ NR(Number Record)
 
 3 apple marketer 300,000,000
 
-**awk 'NR==3 {print NR,$0} ' gtst.txt
+awk 'NR==3 {print NR,$0} ' gtst.txt
 
 **output =**
 2 linux buyer account 200.000.000
