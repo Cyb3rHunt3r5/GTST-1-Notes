@@ -103,17 +103,28 @@ awk 'NR= =3(-end of the line) {print NR,$0}'
 
 
 # grep - global search for regular expression
-● grep -i “search” ﬁle     
+● grep -i “search” ﬁle
+
 ○ - case insensitive 
-● grep -c “search” ﬁle    
+
+● grep -c “search” ﬁle   
+
 ○ - count numbers 
-● grep -l “search” *   
+
+● grep -l “search”   
+
 ○ -  displays ﬁlename 
+
 ● grep -R “search” foldername 
+
 ○ - search text in folders 
+
 ● grep -v ‘term’ ﬁlename 
+
 ○ To display without this term 
+
 ● grep -n “term” ﬁle 
+
 ○ To display the term ﬁnd number 
 
 
