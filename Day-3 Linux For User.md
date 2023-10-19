@@ -66,7 +66,7 @@ NR(Number Record)
 **awk 'NR==3 {print NR,$0} ' gtst.txt
 
 **output =**
-3 linux buyer account 200.000.000
+2 linux buyer account 200.000.000
 **OR** 
 awk 'NR= =3(-end of the line) {print NR,$0}'
 **output =**
@@ -76,13 +76,18 @@ awk 'NR= =3(-end of the line) {print NR,$0}'
 
 # sed
 *sed 's/FIND/REPLACE/' gtst.txt
+
 **for all replacing type "g"**
+
 sed 's/FIND/REPLACE/g' gtst.txt
 **deleting type "d"**
+
 sed '/apple/d' gtst.txt
 **sed G gtst.txt**
+
 adding space type "G"
 **deleting new lines**
+
 sed '/^$/d' gtst.txt
        
 
