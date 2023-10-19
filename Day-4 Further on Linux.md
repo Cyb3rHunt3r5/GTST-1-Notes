@@ -167,15 +167,24 @@ Then start typing.
 
 
 # Saving Exiting & Undo_redo
+
 Ctrl + S - save
-Alt + U - Undo            the ^ is equal to ‘Ctrl’
+
+Alt + U - Undo 
+
+the ^ is equal to ‘Ctrl’
+
 Alt + E - Redo
+
 Ctrl + X - Exit
+
 Paste,Copy & paste all over the linux is
+
 Ctrl+shift+C - copy
+
 Ctrl+shift+X - Cut
+
 Ctrl+shift+V - Paste   
-You 
 
 
 # To access root user
