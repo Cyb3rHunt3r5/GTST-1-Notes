@@ -1,4 +1,4 @@
-Day-5 ADvanced Linux User.md
+
    Some advanced user commands
 
 ● To change password of user
